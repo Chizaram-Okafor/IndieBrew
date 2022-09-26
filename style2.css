@@ -1,0 +1,273 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    width: 100%;
+    font-family: sans-serif;
+}
+
+header{
+    width: 100%;
+    background: linear-gradient(300deg, rgba(255,253,254,1) 0%, rgba(255,235,249,1) 100%);  
+}
+
+nav{
+    /* outline: 2px solid red; */
+    width: 100%;
+    display: flex;
+    height: 100px;
+    margin: auto;
+    align-items: center;
+    margin-bottom: 90px;
+}
+
+.nav1{
+    /* outline: 2px solid yellow; */
+    margin: auto;
+    width: 20%;
+}
+
+.nav1 img{
+    width: 60%;
+    /* outline: 2px solid black; */
+    justify-items: center;
+}
+
+.homepage{
+    /* outline:  2px solid green; */
+    width: 40%;
+    margin: auto;
+}
+
+.homepage ul{
+    
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    /* outline: 2px solid red; */
+    width: 40%;
+    /* margin: auto; */
+    margin-inline: auto 30px;
+    align-items: center;
+    justify-items: center;
+}
+
+.homepage ul img{
+    /* outline: 2px solid yellow; */
+    width: 90%;
+    border: 2px solid rgb(209, 209, 209);
+    background-color: rgb(251, 248, 248);
+    border-radius: 3px;
+    padding: 5px 7px;
+}
+
+.homepage ul a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.create-sect{
+    width: 80%;
+    /* outline: 2px solid green; */
+    margin: auto;
+    margin-top: -20px;
+    height: 600px;
+    display: flex;
+}
+
+.create-sect .text-side{
+    width: 50%;
+    /* outline: 2px solid yellow; */
+    margin-top: 30px;
+}
+
+.create-sect .text-side h2{
+    line-height: 1.5;
+    /* outline: 2px solid pink; */
+    margin-bottom: 15px;
+}
+
+.text-side .side1{
+    /* outline: 2px solid red; */
+    display: flex;
+    gap: 15px;
+}
+.text-side .side1 i{
+    color: red;
+    font-size: 20px;
+}
+.text-side span{
+    font-weight: 700;
+}
+.text-side p{
+    line-height: 1.5;
+}
+.text-side .side2{
+    /* outline: 2px solid red; */
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+.text-side .side2 i{
+    color: rgb(173, 162, 0);
+    font-size: 20px;
+}
+
+.text-side .side3{
+    /* outline: 2px solid red; */
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+.text-side .side3 i{
+    color: rgb(242, 251, 77);
+    font-size: 20px;
+}
+
+
+.create-sect form{
+    border-radius: 5px;
+    border: 2px solid #fff;
+    width: 45%;
+    background-color: #fff;
+    margin: auto;
+    margin-top: -50px;
+    position: relative;
+    align-items: center;
+    height: 500px;
+}
+
+.create-sect form h3{
+   margin-top: 60px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+}
+
+.create-sect form p{
+    color: black;
+    font-weight: 600;
+    margin-left: 30px;
+}
+
+.create-sect form input{
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 1.5rem;
+    margin-left: 30px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #999;
+}
+form .account{
+    display: flex;
+    margin-top: -10px;
+}
+form .account i {
+    /* outline: 2px solid red; */
+    font-size: 18px;
+    /* width: 40%; */
+    margin-left: 30px;
+}
+
+form .account p{
+    /* outline: 2px solid blue; */
+    width: 80%;
+    
+    margin-inline: auto 10px;
+    font-weight: 500;
+    font-size: 14px;
+}
+form .account a {
+    color: blue;
+    font-weight: 700;
+}
+
+form button{
+    /* outline: 2px solid blue; */
+    width: 80%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 14px;
+    background-color: blue;
+    border-radius: 5px;
+    border: 0px;
+    color: #fff;
+}
+
+/*MOBILE VIEW */
+@media screen and (max-width: 1000px){
+    header{
+        width: 100%;
+        /* height: 170vh; */
+        background: linear-gradient(300deg, rgba(255,253,254,1) 0%, rgba(255,235,249,1) 100%);  
+    }
+    nav{
+        width: 100%;
+        display: flex;
+        height: 100px;
+        margin: auto;
+        align-items: center;
+        margin-bottom: 90px;
+    }
+
+    .nav1{
+        margin: auto;
+        width: 40%;
+    }
+    
+    .nav1 img{
+        width: 60%;
+        justify-items: center;
+    }
+
+    .homepage{
+        width: 40%;
+        margin: auto;
+    }
+
+    .homepage .home{
+        display: none;
+    }
+    
+    .homepage ul img{
+        position: relative;
+        left: 60px;
+    }
+
+    .create-sect{
+        width: 80%;
+        margin: auto;
+        margin-top: -20px;
+        height: 600px;
+        flex-direction: column;
+    }
+
+    .create-sect .text-side{
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .create-sect form{
+        border-radius: 5px;
+        border: 2px solid #fff;
+        width: 100%;
+        background-color: #fff;
+        margin: auto;
+        margin-top: 20px;
+        /* position: relative; */
+        align-items: center;
+        height: 600px;
+    }
+
+
+
+    
+    
+
+}
