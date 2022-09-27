@@ -15,7 +15,6 @@ header{
 }
 
 nav{
-    /* outline: 2px solid red; */
     width: 100%;
     display: flex;
     height: 100px;
@@ -25,19 +24,16 @@ nav{
 }
 
 .nav1{
-    /* outline: 2px solid yellow; */
     margin: auto;
     width: 20%;
 }
 
 .nav1 img{
     width: 60%;
-    /* outline: 2px solid black; */
     justify-items: center;
 }
 
 .homepage{
-    /* outline:  2px solid green; */
     width: 40%;
     margin: auto;
 }
@@ -47,16 +43,13 @@ nav{
     display: flex;
     list-style: none;
     gap: 10px;
-    /* outline: 2px solid red; */
     width: 40%;
-    /* margin: auto; */
     margin-inline: auto 30px;
     align-items: center;
     justify-items: center;
 }
 
 .homepage ul img{
-    /* outline: 2px solid yellow; */
     width: 90%;
     border: 2px solid rgb(209, 209, 209);
     background-color: rgb(251, 248, 248);
@@ -73,7 +66,6 @@ nav{
 
 .create-sect{
     width: 80%;
-    /* outline: 2px solid green; */
     margin: auto;
     margin-top: -20px;
     height: 600px;
@@ -82,18 +74,15 @@ nav{
 
 .create-sect .text-side{
     width: 50%;
-    /* outline: 2px solid yellow; */
     margin-top: 30px;
 }
 
 .create-sect .text-side h2{
     line-height: 1.5;
-    /* outline: 2px solid pink; */
     margin-bottom: 15px;
 }
 
 .text-side .side1{
-    /* outline: 2px solid red; */
     display: flex;
     gap: 15px;
 }
@@ -108,7 +97,6 @@ nav{
     line-height: 1.5;
 }
 .text-side .side2{
-    /* outline: 2px solid red; */
     display: flex;
     gap: 15px;
     margin-top: 10px;
@@ -119,7 +107,6 @@ nav{
 }
 
 .text-side .side3{
-    /* outline: 2px solid red; */
     display: flex;
     gap: 15px;
     margin-top: 10px;
@@ -168,16 +155,12 @@ form .account{
     margin-top: -10px;
 }
 form .account i {
-    /* outline: 2px solid red; */
     font-size: 18px;
-    /* width: 40%; */
     margin-left: 30px;
 }
 
 form .account p{
-    /* outline: 2px solid blue; */
     width: 80%;
-    
     margin-inline: auto 10px;
     font-weight: 500;
     font-size: 14px;
@@ -188,7 +171,6 @@ form .account a {
 }
 
 form button{
-    /* outline: 2px solid blue; */
     width: 80%;
     padding: 10px;
     margin-top: 20px;
@@ -204,7 +186,7 @@ form button{
 @media screen and (max-width: 1000px){
     header{
         width: 100%;
-        /* height: 170vh; */
+        height: 175vh;
         background: linear-gradient(300deg, rgba(255,253,254,1) 0%, rgba(255,235,249,1) 100%);  
     }
     nav{
@@ -222,7 +204,7 @@ form button{
     }
     
     .nav1 img{
-        width: 60%;
+        width: 100%;
         justify-items: center;
     }
 
@@ -244,7 +226,7 @@ form button{
         width: 80%;
         margin: auto;
         margin-top: -20px;
-        height: 600px;
+        height: 450px;
         flex-direction: column;
     }
 
@@ -259,11 +241,10 @@ form button{
         width: 100%;
         background-color: #fff;
         margin: auto;
-        margin-top: 20px;
-        /* position: relative; */
+        margin-top: 50px;
         align-items: center;
-        height: 600px;
     }
+    
 
 
 
